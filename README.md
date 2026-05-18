@@ -1,10 +1,5 @@
 # Lokālo lielo valodas modeļu pielietojums teksta moderācijā
 
-Bakalaura darba kods un eksperimenti.
-
-**Autors:** Romans Drozdovs (RTU, 2026)
-**Tēma:** Lokālo lielo valodas modeļu pielietojums lingvistiskās filtrēšanas un klasifikācijas uzdevumos
-
 ## Apraksts
 
 Šis repozitorijs satur Python implementāciju trīs teksta moderācijas pieejām un to salīdzinošo bencmarku uz Civil Comments datu kopuma:

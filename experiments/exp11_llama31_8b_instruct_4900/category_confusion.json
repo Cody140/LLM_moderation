@@ -1,0 +1,243 @@
+{
+  "llm": {
+    "total_with_prediction": 4900,
+    "exact_match": 658,
+    "exact_match_rate": 0.13428571428571429,
+    "per_category_accuracy": {
+      "identity_attack": 0.2257142857142857,
+      "insult": 0.5257142857142857,
+      "threat": 0.13285714285714287,
+      "clean": 0.0,
+      "severe_toxicity": 0.024285714285714285,
+      "sexual_explicit": 0.015714285714285715,
+      "obscene": 0.015714285714285715
+    },
+    "confusion": [
+      {
+        "true": "identity_attack",
+        "pred": "insult",
+        "count": 335
+      },
+      {
+        "true": "insult",
+        "pred": "insult",
+        "count": 368
+      },
+      {
+        "true": "threat",
+        "pred": "insult",
+        "count": 329
+      },
+      {
+        "true": "clean",
+        "pred": "insult",
+        "count": 155
+      },
+      {
+        "true": "insult",
+        "pred": "none",
+        "count": 272
+      },
+      {
+        "true": "severe_toxicity",
+        "pred": "insult",
+        "count": 428
+      },
+      {
+        "true": "clean",
+        "pred": "none",
+        "count": 480
+      },
+      {
+        "true": "threat",
+        "pred": "none",
+        "count": 186
+      },
+      {
+        "true": "severe_toxicity",
+        "pred": "none",
+        "count": 208
+      },
+      {
+        "true": "sexual_explicit",
+        "pred": "none",
+        "count": 204
+      },
+      {
+        "true": "threat",
+        "pred": "severe_toxicity",
+        "count": 26
+      },
+      {
+        "true": "obscene",
+        "pred": "none",
+        "count": 240
+      },
+      {
+        "true": "obscene",
+        "pred": "insult",
+        "count": 390
+      },
+      {
+        "true": "sexual_explicit",
+        "pred": "identity_attack",
+        "count": 97
+      },
+      {
+        "true": "severe_toxicity",
+        "pred": "obscene",
+        "count": 1
+      },
+      {
+        "true": "identity_attack",
+        "pred": "identity_attack",
+        "count": 158
+      },
+      {
+        "true": "obscene",
+        "pred": "identity_attack",
+        "count": 10
+      },
+      {
+        "true": "sexual_explicit",
+        "pred": "insult",
+        "count": 335
+      },
+      {
+        "true": "obscene",
+        "pred": "severe_toxicity",
+        "count": 36
+      },
+      {
+        "true": "threat",
+        "pred": "threat",
+        "count": 93
+      },
+      {
+        "true": "severe_toxicity",
+        "pred": "severe_toxicity",
+        "count": 17
+      },
+      {
+        "true": "sexual_explicit",
+        "pred": "sexual_explicit",
+        "count": 11
+      },
+      {
+        "true": "identity_attack",
+        "pred": "none",
+        "count": 189
+      },
+      {
+        "true": "obscene",
+        "pred": "obscene",
+        "count": 11
+      },
+      {
+        "true": "clean",
+        "pred": "severe_toxicity",
+        "count": 15
+      },
+      {
+        "true": "sexual_explicit",
+        "pred": "obscene",
+        "count": 31
+      },
+      {
+        "true": "severe_toxicity",
+        "pred": "threat",
+        "count": 15
+      },
+      {
+        "true": "threat",
+        "pred": "identity_attack",
+        "count": 54
+      },
+      {
+        "true": "threat",
+        "pred": "obscene",
+        "count": 8
+      },
+      {
+        "true": "sexual_explicit",
+        "pred": "severe_toxicity",
+        "count": 19
+      },
+      {
+        "true": "clean",
+        "pred": "identity_attack",
+        "count": 40
+      },
+      {
+        "true": "clean",
+        "pred": "obscene",
+        "count": 2
+      },
+      {
+        "true": "insult",
+        "pred": "severe_toxicity",
+        "count": 24
+      },
+      {
+        "true": "obscene",
+        "pred": "threat",
+        "count": 13
+      },
+      {
+        "true": "clean",
+        "pred": "threat",
+        "count": 8
+      },
+      {
+        "true": "insult",
+        "pred": "threat",
+        "count": 10
+      },
+      {
+        "true": "severe_toxicity",
+        "pred": "identity_attack",
+        "count": 31
+      },
+      {
+        "true": "insult",
+        "pred": "identity_attack",
+        "count": 23
+      },
+      {
+        "true": "identity_attack",
+        "pred": "threat",
+        "count": 5
+      },
+      {
+        "true": "sexual_explicit",
+        "pred": "threat",
+        "count": 3
+      },
+      {
+        "true": "identity_attack",
+        "pred": "sexual_explicit",
+        "count": 1
+      },
+      {
+        "true": "threat",
+        "pred": "sexual_explicit",
+        "count": 4
+      },
+      {
+        "true": "identity_attack",
+        "pred": "severe_toxicity",
+        "count": 10
+      },
+      {
+        "true": "insult",
+        "pred": "obscene",
+        "count": 3
+      },
+      {
+        "true": "identity_attack",
+        "pred": "obscene",
+        "count": 2
+      }
+    ]
+  }
+}

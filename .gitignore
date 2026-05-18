@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+training_output.log
+log*.txt
+
+# Large source data (download from HuggingFace)
+civil_comments_train.csv
+civil_comments_*.csv
+
+# Large detailed results (regenerable via benchmark_moderation.py)
+detailed.csv
+detailed_*.csv
+**/detailed.csv
+**/detailed_*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Models / weights
+civil_comments_mod_clf/
+*.bin
+*.safetensors
+*.gguf
+
+# Build artifacts
+build/
+dist/
+*.egg
+
+# Plugin manifest (if any)
+.claude/
